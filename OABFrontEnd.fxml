@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.Cursor?>
+<?import javafx.scene.control.MenuButton?>
+<?import javafx.scene.control.MenuItem?>
+<?import javafx.scene.control.TextArea?>
+<?import javafx.scene.effect.ColorAdjust?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.Pane?>
+
+
+<Pane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="400.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/23.0.1" xmlns:fx="http://javafx.com/fxml/1">
+   <children>
+      <ImageView disable="true" fitHeight="117.0" fitWidth="200.0" focusTraversable="true" layoutX="14.0" layoutY="15.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../../Downloads/download.jpg" />
+         </image>
+         <cursor>
+            <Cursor fx:constant="DEFAULT" />
+         </cursor>
+         <effect>
+            <ColorAdjust contrast="-0.24" saturation="-0.33" />
+         </effect>
+      </ImageView>
+      <TextArea layoutX="200.0" layoutY="21.0" prefHeight="25.0" prefWidth="384.0" promptText="Digite sua pesquisa" wrapText="true">
+         <effect>
+            <ColorAdjust brightness="-0.28" />
+         </effect>
+      </TextArea>
+      <MenuButton layoutX="200.0" layoutY="73.0" mnemonicParsing="false" text="Notícias">
+        <items>
+          <MenuItem mnemonicParsing="false" text="Atas do Conselho Pleno" />
+          <MenuItem mnemonicParsing="false" text="Ementários" />
+            <MenuItem mnemonicParsing="false" text="Legislação" />
+            <MenuItem mnemonicParsing="false" text="Notícias" />
+        </items>
+      </MenuButton>
+      <ImageView fitHeight="272.0" fitWidth="582.0" layoutX="9.0" layoutY="120.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../../Downloads/Captura%20de%20tela%202025-02-19%20155016.png" />
+         </image>
+      </ImageView>
+      <ImageView fitHeight="272.0" fitWidth="329.0" layoutX="264.0" layoutY="120.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../../Downloads/Captura%20de%20tela%202025-02-19%20155150.png" />
+         </image>
+      </ImageView>
+      <ImageView fitHeight="25.0" fitWidth="36.0" layoutX="546.0" layoutY="27.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../../Downloads/download.png" />
+         </image>
+         <effect>
+            <ColorAdjust contrast="-0.59" />
+         </effect>
+      </ImageView>
+   </children>
+   <effect>
+      <ColorAdjust contrast="0.12" />
+   </effect>
+</Pane>

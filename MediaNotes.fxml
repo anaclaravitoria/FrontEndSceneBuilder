@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.TextArea?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.layout.AnchorPane?>
+
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="400.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/23.0.1" xmlns:fx="http://javafx.com/fxml/1">
+   <children>
+      <Button layoutX="276.0" layoutY="76.0" mnemonicParsing="false" text="salvar" />
+      <Button layoutX="278.0" layoutY="151.0" mnemonicParsing="false" text="salvar" />
+      <Label layoutX="171.0" layoutY="27.0" text="Olá! Digite suas notas para saber se você passou." />
+      <TextArea layoutX="61.0" layoutY="186.0" prefHeight="40.0" prefWidth="525.0" promptText="Estaremos analisando suas notas e informaremos se você passou ou está na média ou reprovou." text="Estaremos analisando suas notas e informaremos se você passou,se está na média ou reprovou." />
+      <TextField layoutX="226.0" layoutY="44.0" promptText="Digite sua nota" />
+      <TextField layoutX="225.0" layoutY="114.0" promptText="Digite sua nota" />
+   </children>
+</AnchorPane>

@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.MenuButton?>
+<?import javafx.scene.control.MenuItem?>
+<?import javafx.scene.control.TextArea?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.effect.ColorAdjust?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.Pane?>
+<?import javafx.scene.text.Font?>
+<?import javafx.scene.text.Text?>
+
+
+<Pane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="400.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/23.0.1" xmlns:fx="http://javafx.com/fxml/1">
+   <children>
+      <TextArea layoutX="33.0" layoutY="76.0" prefHeight="98.0" prefWidth="295.0" text="Quer mais &#10;informações?">
+         <font>
+            <Font size="27.0" />
+         </font>
+      </TextArea>
+      <ImageView fitHeight="49.0" fitWidth="246.0" layoutX="33.0" layoutY="14.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../../Downloads/mQR-2023-09-21-11-40-21.png" />
+         </image>
+      </ImageView>
+      <MenuButton layoutX="510.0" layoutY="22.0" mnemonicParsing="false" text="menu">
+        <items>
+            <MenuItem mnemonicParsing="false" text="Nossa história" />
+            <MenuItem mnemonicParsing="false" text="Nosso legado" />
+            <MenuItem mnemonicParsing="false" text="Infraestrutura" />
+            <MenuItem mnemonicParsing="false" text="Internacionalidade" />
+          <MenuItem mnemonicParsing="false" text="Cursos" />
+            <MenuItem mnemonicParsing="false" text="Como Ingressar" />
+          <MenuItem mnemonicParsing="false" text="Graduação" />
+            <MenuItem mnemonicParsing="false" text="Pós_Graduação" />
+            <MenuItem mnemonicParsing="false" text="Mestrado" />
+            <MenuItem mnemonicParsing="false" text="Transferência" />
+            <MenuItem mnemonicParsing="false" text="Cursos Livres" />
+            <MenuItem mnemonicParsing="false" text="Nota ENEM" />
+            <MenuItem mnemonicParsing="false" text="Vestibular Tradiconal" />
+            <MenuItem mnemonicParsing="false" text="Vestibular Simplificado" />
+            <MenuItem mnemonicParsing="false" text="Nova Graduação" />
+        </items>
+      </MenuButton>
+      <Text layoutX="48.0" layoutY="189.0" strokeType="OUTSIDE" strokeWidth="0.0" text="È fácil, faça seu cadrasto e entraremos em contato!" />
+      <TextField layoutX="48.0" layoutY="217.0" promptText="Nome Completo" />
+      <TextField layoutX="48.0" layoutY="249.0" promptText="E-mail" />
+      <TextField layoutX="48.0" layoutY="281.0" promptText="Celular" />
+      <TextArea layoutX="26.0" layoutY="306.0" prefHeight="83.0" prefWidth="549.0" text="Nós usaremos seus dados para entrar em contato com você sobre as informações solicitadas neste&#10; formulário e sobre outras informações correlacionadas que podem ser de seu interesse.&#10; Você pode cancelar o envio da divulgação, a qualquer momento, utilizando o opt-out existente nas&#10; mensagens encaminhadas por nós. Para maiores informações, acesse nossos avisos de privacidade." />
+   </children>
+   <effect>
+      <ColorAdjust contrast="0.26" />
+   </effect>
+</Pane>
